@@ -1,0 +1,70 @@
+/* General Body Styles */
+body {
+    font-family: 'Times New Roman', serif;
+    color: #3a3a3a;
+    background-color: #f5f5dc;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background: #1a472a;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: normal;
+}
+
+/* Navigation Bar */
+nav {
+    background: #0e2f1c;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #c9b458;
+}
+
+/* Main Content Styles */
+.main-content {
+    padding: 20px;
+    background: url('images/parchment_texture.png');
+}
+
+/* Book Display */
+.book {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.book h2 {
+    color: #2a5234;
+}
+
+.book img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Footer Styles */
+footer {
+    background: #1a472a;
+    color: #fff;
+   
+}

@@ -1,0 +1,17 @@
+<% include ../partials/header.ejs %>
+
+<div class="main-content">
+    <h2>Welcome to My Tolkien Library</h2>
+    <p>Explore the collection of J.R.R. Tolkien's works and related literature.</p>
+    <% books.forEach(book => { %>
+        <div class="book">
+            <h3><%= book.title %></h3>
+            <p>Author: <%= book.author %></p>
+            <p>Published: <%= book.publicationyear %></p>
+            <p>Rating: <%= book.rating %>/5</p>
+            <img src="<%= book.coverUrl %>" alt="Cover image for <%= book.title %>" class="book-cover">
+        </div>
+    <% }); %>
+</div>
+
+<% include ../partials/footer.ejs %>
